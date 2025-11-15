@@ -11,7 +11,9 @@ import PitchModalForm from './pages/PitchModalForm.jsx';
 import JoinedTeams from './pages/JoinedTeams.jsx';
 import Explore from './pages/Explore.jsx';
 import CreatePost from './pages/CreatePost.jsx';
-import Leaderboard from './pages/Leaderboard.jsx'
+import Leaderboard from './pages/Leaderboard.jsx';
+import EventForm from './pages/EventForm.jsx'
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/explore" element={<Explore />} />
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/event-publish" element={<EventForm />} />
 
         
 

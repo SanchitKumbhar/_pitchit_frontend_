@@ -30,7 +30,7 @@ function Leaderboard() {
     <div className="min-h-screen">
       <Navbar2 />
 
-      <div className="w-full p-6 space-y-8 sm:p-6 md:p-10 lg:px-20">
+      <div className="w-full p-6 space-y-8 sm:p-6 md:p-10 lg:px-30">
         
         <h1 className="text-4xl font-extrabold flex items-center gap-3 text-gray-800">
           <Trophy className="w-8 h-8 text-blue-600" /> Leaderboard
