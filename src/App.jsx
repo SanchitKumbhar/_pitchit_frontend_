@@ -23,7 +23,6 @@ function App() {
         <Route path="/my-pitches" element={<MyPitches />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/create-pitch" element={<PitchModalForm />} />
-        <Route path="/joined-teams" element={<JoinedTeams />} />
         <Route path="/explore" element={<Explore />} />
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
