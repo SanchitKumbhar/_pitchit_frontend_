@@ -13,6 +13,8 @@ import Explore from './pages/Explore.jsx';
 import CreatePost from './pages/CreatePost.jsx';
 import Leaderboard from './pages/Leaderboard.jsx';
 import EventForm from './pages/EventForm.jsx'
+import ViewPitch from './pages/ViewPitch.jsx'
+
 
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
         <Route path="/create-post" element={<CreatePost />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/event-publish" element={<EventForm />} />
+        <Route path="/view-pitch" element={<ViewPitch />} />
 
         
 
