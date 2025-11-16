@@ -1,0 +1,6 @@
+# Netlify CLI Configuration
+# This file is used by the Netlify CLI for local development and deployment
+
+[build]
+  functions = "netlify/functions"
+  publish = "dist"
