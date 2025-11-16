@@ -16,6 +16,7 @@ import EventForm from './pages/EventForm.jsx'
 import ViewPitch from './pages/ViewPitch.jsx'
 import EditPitch from './pages/EditPitch.jsx';
 import EditPost from './pages/EditPost.jsx';
+import HiringForm from './pages/HiringForm.jsx';
 
 
 
@@ -36,6 +37,8 @@ function App() {
         <Route path="/view-pitch" element={<ViewPitch />} />
         <Route path="/edit-pitch" element={<EditPitch />} />
         <Route path="/edit-post" element={<EditPost />} />
+        <Route path="/hiring-form" element={<HiringForm />} />
+
 
 
         
