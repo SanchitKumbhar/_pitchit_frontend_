@@ -14,6 +14,8 @@ import CreatePost from './pages/CreatePost.jsx';
 import Leaderboard from './pages/Leaderboard.jsx';
 import EventForm from './pages/EventForm.jsx'
 import ViewPitch from './pages/ViewPitch.jsx'
+import EditPitch from './pages/EditPitch.jsx';
+import EditPost from './pages/EditPost.jsx';
 
 
 
@@ -32,6 +34,9 @@ function App() {
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/event-publish" element={<EventForm />} />
         <Route path="/view-pitch" element={<ViewPitch />} />
+        <Route path="/edit-pitch" element={<EditPitch />} />
+        <Route path="/edit-post" element={<EditPost />} />
+
 
         
 
