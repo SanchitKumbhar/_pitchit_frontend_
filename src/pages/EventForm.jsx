@@ -92,6 +92,27 @@ function EventForm() {
             </div>
           </div>
 
+
+
+          <div>
+            <label className="block text-gray-700 font-medium mb-1">
+              Media & Attachments
+            </label>
+
+            <div className="flex items-center gap-3 border border-gray-200 rounded-lg px-3 py-2 shadow-sm bg-gray-50 cursor-pointer">
+              <input
+                type="file"
+                accept="image/*,video/*,.pdf,.doc,.docx"
+                multiple
+                className="w-full bg-transparent outline-none"
+              />
+            </div>
+
+
+          </div>
+
+
+
           <div className="flex flex-col sm:flex-row justify-end gap-3 sm:gap-4 pt-4">
 
             <button className="flex items-center gap-2 px-6 py-2 rounded-lg border border-gray-200 bg-white shadow-sm hover:bg-gray-100 transition">
@@ -107,6 +128,7 @@ function EventForm() {
           </div>
 
         </div>
+
       </div>
 
       <Footer />

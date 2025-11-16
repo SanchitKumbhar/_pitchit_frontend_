@@ -122,31 +122,6 @@ function ViewPitch() {
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-md border border-gray-200">
-              <h2 className="text-xl font-semibold mb-4 pb-2">Team Details</h2>
-
-              <div className="space-y-0.5 shadow-md rounded-lg border border-gray-200 p-2 md:p-0 overflow-x-auto"> 
-                
-                <div className="grid grid-cols-3 font-semibold text-blue-600 py-2 border-gray-300 min-w-[350px] md:min-w-full px-2">
-                  <span className="flex items-center gap-1 text-xs md:text-base"><User className="w-4 h-4 text-blue-500"/> Member</span>
-                  <span className="flex items-center gap-1 text-xs md:text-base"><Zap className="w-4 h-4 text-blue-500"/> Role</span>
-                  <span className="flex items-center gap-1 text-xs md:text-base"><Phone className="w-4 h-4 text-blue-500"/> Contact</span>
-                </div>
-
-                {teamData.map((member, index) => (
-                  <div 
-                    key={index}
-                    
-                    className="grid grid-cols-3 py-3 text-gray-700 hover:bg-gray-50 transition-colors text-xs md:text-base min-w-[350px] md:min-w-full px-2"
-                  >
-                    <span>{member.member}</span>
-                    <span>{member.role}</span>
-                    <span>{member.contact}</span>
-                  </div>
-                ))}
-              </div>
-
-            </div>
 
           </div>
 
