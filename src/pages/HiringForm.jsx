@@ -175,13 +175,13 @@ const HiringForm = () => {
           </h2>
         </div>
         <div>
-          <hr className="border-gray-300 mb-10 md:mb-20" />
+          <hr className="border-gray-300 mb-20 md:mb-20" />
         </div>
 
 
 
 
-        <div className="relative w-full mb-10 pt-8 sm:pt-0">
+        <div className="relative w-full mb-10 pt-0 sm:pt-0">
           <div className="w-full bg-gray-200 h-3 rounded-full"></div>
 
           <div
