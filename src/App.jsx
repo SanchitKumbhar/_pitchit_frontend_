@@ -17,6 +17,7 @@ import ViewPitch from './pages/ViewPitch.jsx'
 import EditPitch from './pages/EditPitch.jsx';
 import EditPost from './pages/EditPost.jsx';
 import HiringForm from './pages/HiringForm.jsx';
+import SentimentAndFeedbackInsights from './pages/SentimentAndFeedbackInsights.jsx';
 
 
 
@@ -38,6 +39,7 @@ function App() {
         <Route path="/edit-pitch" element={<EditPitch />} />
         <Route path="/edit-post" element={<EditPost />} />
         <Route path="/hiring-form" element={<HiringForm />} />
+        <Route path="/sentiment-insights" element={<SentimentAndFeedbackInsights />} />
 
 
 
